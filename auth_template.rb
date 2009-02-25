@@ -1,4 +1,4 @@
-load_template "/Users/eifion/rails/apps_for_asciicasts/base_template.rb"
+load_template "http://github.com/eifion/rails-templates/raw/master/base_template.rb"
 
 name = ask("What would you like the user to be called?")
 generate :nifty_authentication, name
